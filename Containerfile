@@ -3,7 +3,7 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM registry.gitlab.com/fedora/bootc/base-images/fedora-bootc-minimal:40-amd64
+FROM quay.io/fedora/fedora-bootc:43
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:latest
